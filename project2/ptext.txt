@@ -1,0 +1,6 @@
+   avg_voltage_per_columns = dict()
+    for key in sum_voltage_per_columns:
+        if (sum_voltage_per_columns[key][0] == 0):
+            avg_voltage_per_columns[key] = np.nan
+        else:
+            avg_voltage_per_columns[key] = sum_voltage_per_columns[key][1] / sum_voltage_per_columns[key][0]

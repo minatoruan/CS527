@@ -1,0 +1,2 @@
+Hello!!! This is an implementation of WSU cryptography that uses 80 bits key.
+This message has two lines.
